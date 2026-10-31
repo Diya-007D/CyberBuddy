@@ -116,6 +116,7 @@ CyberBuddy/
 
 ## Author
 Diya Dileep
+
 GitHub: https://github.com/Diya-007D
 
 
