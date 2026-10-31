@@ -81,7 +81,6 @@ For reporting cybercrime in India:
 ## Project Structure
 
 CyberBuddy/
-│
 
 ├── index.html
 
