@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CyberBuddy helps you learn cybersecurity and stay safe online.">
+        <title>CyberBuddy | Cyber Safety Assistant</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <main class="chat-container">
+            <header class="chat-header">
+                <div class="logo">🛡️</div>
+                <div>
+                    <h1>CyberBuddy</h1>
+                    <p>Cyber Safety Assistant</p>
+                </div>
+                <span class="status">Online</span>
+            </header>
+
+            <section class="privacy-notice">
+                🔒 Never share passwords, OTPs, PINs, or banking details. 
+            </section>
+
+            <section id="chat-messages"
+                     class="chat messages"
+                     aria-live="polite"
+                     aria-label="chat conversation">
+            </section>
+
+            <div class="message bot-message">
+                Hi! 👋 I'm CyberBuddy.
+                
+                I can help you understand phishing, password
+                security, malware, public Wi-Fi, and online privacy.
+
+                What would you like to know?
+            </div>
+
+            <section class="suggestions" aria-label="suggested questions">
+                <button type="button" class="suggestion"
+                  data-question="How do I identify a phishing scam?">
+                  🎣 Phishing scams
+                </button>
+                <button type="button" class="suggestion"
+                  data-question="How can I secure my password?">
+                  🔐 Password safety
+                </button>
+                <button type="button" class="suggestion"
+                    data-question="I clicked a suspicious link. What should I do?">
+                    ⚠️ Suspicious link
+                </button>
+                <button type="button" class="suggestion"
+                    data-question="My account has been hacked.What should i do?">
+                    🚨 Hacked account
+                </button>
+            </section>
+
+            <form id="chat-form" class="chat-input-area">
+                <label class="sr-only" for="user-input">your questions</label>
+                <input 
+                  type="text"
+                  id="user-input"
+                  placeholder="Ask a cybersecurity question..."
+                  autocomplete="off"
+                  maxlength="500"
+                  required>
+                <button type="submit" id="send-button">Send</button>
+            </form>
+
+            <footer>
+                CyberBuddy provides general Cybersecurity awareness,
+                not professional incident response.
+            </footer>
+
+        </main>
+    </body>
+</html>
