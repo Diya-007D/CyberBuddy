@@ -82,13 +82,9 @@ For reporting cybercrime in India:
 
 CyberBuddy/
 │
-
 ├── index.html
-
 ├── style.
-
 ├── script.js
-
 └── README.
 
 9. Installation and Usage
